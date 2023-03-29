@@ -13,6 +13,8 @@ Necesitamos instalar las siguientes herramientas:
 - [MySQL](https://dev.mysql.com/downloads/mysql/) (8.0.32)
 - [NodeJS](https://nodejs.org/es/download/) (18.15.0 LTS, para chocolatey 🍫)
 
+> 📣 disclaimer: Los instaladores de estas herramientas están pensadas para un ambiente Windows.
+
 ## Herramientas 🛠️
 
 Además de las instalaciones **core**, también necesitaremos:
@@ -29,7 +31,8 @@ Además de las instalaciones **core**, también necesitaremos:
 
 - [Documentación de PHP](https://www.php.net/manual/es/index.php)
 - [Documentación MDN](https://developer.mozilla.org/es/docs/Web/HTML)
-- [DevDocs](https://devdocs.io/) (Documentación de todo) 📚💥
+- [DevDocs](https://devdocs.io/) (documentación de todo) 📚💥
+- [Startup.com](https://www.youtube.com/watch?v=h2g_yGaffYU) (documental burbuja.com) 😉
 
 A medida que el taller avance, iremos agregando más recursos. Por ahora, estos son los más importantes.
 
@@ -38,3 +41,4 @@ A medida que el taller avance, iremos agregando más recursos. Por ahora, estos 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+📼
