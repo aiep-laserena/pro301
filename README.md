@@ -27,6 +27,43 @@ Además de las instalaciones **core**, también necesitaremos:
 
 > 👀 Nota: La selección de herramientas es sólo una sugerencia. Pueden utilizar la que más les acomode.
 
+---
+
+## Configuraciones 🔧
+
+Para una mejor experiencia, es recomendable realizar las siguientes configuraciones:
+
+### Establecer apache como servicio:
+
+```powershell
+# Abrir una terminal en PowerShell como administrador
+PS C:\apache\bin> .\httpd.exe -k install
+```
+
+### Agregar lo siguiente al archivo `httpd.conf` de apache `(c:\apache\conf\httpd.conf)`:
+
+```apache
+# Agregar al final del archivo
+LoadModule php_module "C:/php/php8apache2_4.dll"
+AddHandler application/x-httpd-php .php
+PHPIniDir "C:/php"
+```
+
+### Agregar lo siguiente al archivo `php.ini` de php `(c:\php\php.ini)`:
+
+```ini
+# Cambiar los valores de las siguientes configuraciones:
+post_max_size = 50M
+upload_max_filesize = 50M
+
+# Habilitar las siguientes extensiones:
+extension=fileinfo
+extension=gd
+extension=mysqli
+```
+
+> 📣 Siempre que se realicen cambios en la configuración, es necesario reiniciar el servicio de apache.
+
 ## Recursos 📖
 
 - [Documentación de PHP](https://www.php.net/manual/es/index.php)
