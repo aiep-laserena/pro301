@@ -20,10 +20,11 @@ Necesitamos instalar las siguientes herramientas:
 Además de las instalaciones **core**, también necesitaremos:
 
 - [Visual Studio Code](https://code.visualstudio.com/download) (Para escribir código)
-- [Tableplus](https://tableplus.com/download) (Para la base de datos)
-- [DBeaver](https://dbeaver.io/download/) (Para la base de datos)
-- [Workbench](https://dev.mysql.com/downloads/workbench/) (Para la base de datos, _viene incluido en la instalación MySQL_)
-- [Resposibility](https://responsively.app/) (Para probar el sitio en diferentes dispositivos)
+- [Tableplus](https://tableplus.com/download) (**OP1**: Gestión DB)
+- [DBeaver](https://dbeaver.io/download/) (**OP2**: Gestión DB)
+- [Workbench](https://dev.mysql.com/downloads/workbench/) (**OP3**: Gestión DB, _viene incluido en la instalación MySQL_)
+- [Responsively](https://responsively.app/) (Para probar el sitio en diferentes dispositivos)
+- [RunJS](https://runjs.app/) (Para probar código JavaScript)
 
 > 👀 Nota: La selección de herramientas es sólo una sugerencia. Pueden utilizar la que más les acomode.
 
@@ -49,7 +50,11 @@ AddHandler application/x-httpd-php .php
 PHPIniDir "C:/php"
 ```
 
-### Agregar lo siguiente al archivo `php.ini` de php `(c:\php\php.ini)`:
+### En `C:\php` **copiar** el archivo `php.ini-production` pegarlo en la misma ubicación y renombrar la copia a `php.ini`
+
+![demo](./assets/action.gif)
+
+### Realizar modificaciones al archivo `php.ini` de php `(c:\php\php.ini)`:
 
 ```ini
 # Cambiar los valores de las siguientes configuraciones:
@@ -70,8 +75,36 @@ extension=mysqli
 - [Documentación MDN](https://developer.mozilla.org/es/docs/Web/HTML)
 - [DevDocs](https://devdocs.io/) (documentación de todo) 📚💥
 - [Startup.com](https://www.youtube.com/watch?v=h2g_yGaffYU) (documental burbuja.com) 😉
+- [Slide Intro aplicaciones Internet](https://docs.google.com/presentation/d/1icwqKQx1tzyJ_ic5NczF4x8_2p4F3HcWsMydb0h9gEA/edit?usp=sharing) (Presentación que vimos en clases)
 
 A medida que el taller avance, iremos agregando más recursos. Por ahora, estos son los más importantes.
+
+## FAQ 🤔
+
+### ¿Porqué no usamos programas como XAMP?
+
+Si bien XAMPP es una herramienta robusta y muy útil no será lo que se encontrarán en un ambiente real de trabajo. Al ser un Sandbox, no nos permite tener un control total sobre nuestro entorno de desarrollo. Además los problemas con los que podemos encontrarnos _(como conflictos de puertos)_ son difíciles de resolver. Por eso, es importante que aprendan a configurar el stack de desarrollo desde cero, lo más similar posible a un ambiente de producción.
+
+### ¿La configuraciones son válidas sólo para Windows?
+
+¡Correcto!, es el sistema que utilizan ustedes en su mayoría. Si bien es posible realizar las mismas configuraciones en Linux o Mac, no es el objetivo de este taller. Si quieren aprender a configurar el stack de desarrollo en Linux o Mac, pueden hacerlo por su cuenta. 😎
+
+### ¿Qué es un Sandbox?
+
+Un Sandbox es un entorno de desarrollo aislado, que nos permite probar y ejecutar código sin afectar el resto del sistema. En este caso, XAMPP es un Sandbox que nos permite probar código PHP. Sin embargo es caja negra, por lo tanto su funcionamiento es difícil de entender y modificar.
+
+### ¿Qué es un Stack de desarrollo?
+
+Un stack de desarrollo es un conjunto de herramientas que nos permiten desarrollar software. En este caso, el stack de desarrollo que utilizaremos es XAMP _(👀 no confundir stack con sandbox)_. Éste acrónimo significa:
+
+- **X**: Windows
+- **A**: Apache
+- **M**: MySQL
+- **P**: PHP
+
+### ¿Que fue primero el huevo o la gallina?
+
+¡La gallina! 😂
 
 ![](https://media.giphy.com/media/umYMU8G2ixG5mJBDo5/giphy.gif)
 
