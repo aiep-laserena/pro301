@@ -75,7 +75,9 @@ extension=mysqli
 - [Documentación MDN](https://developer.mozilla.org/es/docs/Web/HTML)
 - [DevDocs](https://devdocs.io/) (documentación de todo) 📚💥
 - [Startup.com](https://www.youtube.com/watch?v=h2g_yGaffYU) (documental burbuja.com) 😉
-- [Slide Intro aplicaciones Internet](https://docs.google.com/presentation/d/1icwqKQx1tzyJ_ic5NczF4x8_2p4F3HcWsMydb0h9gEA/edit?usp=sharing) (Presentación que vimos en clases)
+- [Slide Intro aplicaciones Internet](https://docs.google.com/presentation/d/1icwqKQx1tzyJ_ic5NczF4x8_2p4F3HcWsMydb0h9gEA/edit?usp=sharing) (Presentación que ~~vimos~~ veremos en clases)
+- [Tabler Icons](https://tablericons.com/) (Iconos para el sitio)
+- [Hero Icons](https://heroicons.com/) (Iconos para el sitio)
 
 A medida que el taller avance, iremos agregando más recursos. Por ahora, estos son los más importantes.
 
