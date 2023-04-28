@@ -78,6 +78,10 @@ extension=mysqli
 - [Slide Intro aplicaciones Internet](https://docs.google.com/presentation/d/1icwqKQx1tzyJ_ic5NczF4x8_2p4F3HcWsMydb0h9gEA/edit?usp=sharing) (Presentación que ~~vimos~~ veremos en clases)
 - [Tabler Icons](https://tablericons.com/) (Iconos para el sitio)
 - [Hero Icons](https://heroicons.com/) (Iconos para el sitio)
+- [CSS Matic](https://www.cssmatic.com/) (Generador de gradientes)
+- [Can I Use](https://caniuse.com/) (Compatibilidad de CSS)
+- [Flexbox Froggy](https://flexboxfroggy.com/) (Juego para aprender flexbox)
+- [CSS Grid Garden](https://cssgridgarden.com/) (Juego para aprender CSS Grid)
 
 A medida que el taller avance, iremos agregando más recursos. Por ahora, estos son los más importantes.
 
