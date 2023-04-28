@@ -82,6 +82,9 @@ extension=mysqli
 - [Can I Use](https://caniuse.com/) (Compatibilidad de CSS)
 - [Flexbox Froggy](https://flexboxfroggy.com/) (Juego para aprender flexbox)
 - [CSS Grid Garden](https://cssgridgarden.com/) (Juego para aprender CSS Grid)
+- [FreeCodeCamp](https://www.freecodecamp.org/espanol/) (Aprender a programar)
+- [Font Awesome](https://fontawesome.com/) (Iconos para el sitio)
+- [Hero patterns](https://www.heropatterns.com/) (Patrones para el sitio)
 
 A medida que el taller avance, iremos agregando más recursos. Por ahora, estos son los más importantes.
 
