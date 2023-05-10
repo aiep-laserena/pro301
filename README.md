@@ -71,22 +71,41 @@ extension=mysqli
 
 ## Recursos 📖
 
+### Documentación
+
 - [Documentación de PHP](https://www.php.net/manual/es/index.php)
 - [Documentación MDN](https://developer.mozilla.org/es/docs/Web/HTML)
 - [DevDocs](https://devdocs.io/) (documentación de todo) 📚💥
+- [Can I Use](https://caniuse.com/) (Compatibilidad de CSS)
+- [Configurando Git por primera vez](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Configurando-Git-por-primera-vez)
+
+### Filmografía & Slides
+
 - [Startup.com](https://www.youtube.com/watch?v=h2g_yGaffYU) (documental burbuja.com) 😉
 - [Slide Intro aplicaciones Internet](https://docs.google.com/presentation/d/1icwqKQx1tzyJ_ic5NczF4x8_2p4F3HcWsMydb0h9gEA/edit?usp=sharing) (Presentación que ~~vimos~~ veremos en clases)
+
+### Iconos sombreado y fondos
+
 - [Tabler Icons](https://tablericons.com/) (Iconos para el sitio)
 - [Hero Icons](https://heroicons.com/) (Iconos para el sitio)
 - [CSS Matic](https://www.cssmatic.com/) (Generador de gradientes)
-- [Can I Use](https://caniuse.com/) (Compatibilidad de CSS)
-- [Flexbox Froggy](https://flexboxfroggy.com/) (Juego para aprender flexbox)
-- [CSS Grid Garden](https://cssgridgarden.com/) (Juego para aprender CSS Grid)
-- [FreeCodeCamp](https://www.freecodecamp.org/espanol/) (Aprender a programar)
 - [Font Awesome](https://fontawesome.com/) (Iconos para el sitio)
 - [Hero patterns](https://www.heropatterns.com/) (Patrones para el sitio)
 
+### Juegos y aprendizaje
+
+- [Flexbox Froggy](https://flexboxfroggy.com/) (Juego para aprender flexbox)
+- [CSS Grid Garden](https://cssgridgarden.com/) (Juego para aprender CSS Grid)
+- [FreeCodeCamp](https://www.freecodecamp.org/espanol/) (Aprender a programar)
+
 A medida que el taller avance, iremos agregando más recursos. Por ahora, estos son los más importantes.
+
+## Assessments 📝
+
+Estos son los enlaces a los entregables de **github classroom**:
+
+1. [Página de tributo](https://classroom.github.com/a/6yzVJkgn)
+2. [Ejercicios Javascript](https://classroom.github.com/a/qm6FrXHU)
 
 ## FAQ 🤔
 
@@ -110,6 +129,68 @@ Un stack de desarrollo es un conjunto de herramientas que nos permiten desarroll
 - **A**: Apache
 - **M**: MySQL
 - **P**: PHP
+
+### ¿Cómo subo mi entregable a github classroom?
+
+Para poder subir tu archivo primero debes tener _éste repositorio_ **clonado y actualizado** en tu máquina local y tu **identidad de git** configurada.
+
+### ¿No sabes clonar el repositorio en tu equipo?
+
+No hay problema, sigue estos pasos **(👀 DEBES TENER INSTALADO GIT)**:
+
+1. Abre tu _terminal_ _powershell_ o _git bash_ en tu equipo
+2. Ejecuta los siguientes comandos:
+
+```bash
+git clone https://github.com/aiep-laserena/pro301
+cd pro301/  # Para entrar a la carpeta del repositorio
+```
+
+### Tienes el repositorio pero no lo haz actualizado o ¿no sabes como?
+
+Más sencillo aún, hagamos lo siguiente:
+
+1. Abre tu _terminal_ _powershell_ o _git bash_
+2. Ejecuta los siguientes comandos:
+
+```bash
+cd pro301/  # Para entrar a la carpeta del repositorio
+git pull origin main  # Para bajar los últimos cambios del repositorio.
+```
+
+🚨 es muy importante que antes de bajar los cambios del repositorio tengas tu copia local sin modificaciones.
+
+### ¿No sabes si tienes tu identidad ya configurada en git o quieres hacerlo?
+
+Primero, corroboremos si tienes tu identidad configurada:
+
+1. Abre tu _terminal_ _powershell_ o _git bash_
+2. Ejecuta el siguiente comando:
+
+```bash
+git config --list  # solo esta linea se escribe lo demás es código de salida de ejemplo
+user.name=John Doe
+user.email=johndoe@example.com
+color.status=auto
+color.branch=auto
+color.interactive=auto
+color.diff=auto
+...
+```
+
+Si tienes una salida _parecida_ a la que está más arriba tu identidad esta correctamente configurada. Las variables `user.name` y `user.email` le indican a git tu nombre y correo electrónico.
+
+Si al ejecutar el comando anterior no tienes una salida parecida a esa o te da algún mensaje diferente, debemos configurar tu identidad:
+
+1. Abre tu _terminal_ _powershell_ o _git bash_
+2. Ejecuta los siguientes comandos:
+
+```bash
+git config --global user.name "John Doe"  # reemplaza John Doe por tu nombre y apellido
+git config --global user.email johndoe@example.com  # reemplaza la dirección de correo electrónico por la tuya
+```
+
+🕯️Si necesitas más detalles, se agrego en la sección de **recursos** un enlace a la documentación de git 🙂
 
 ### ¿Que fue primero el huevo o la gallina?
 
