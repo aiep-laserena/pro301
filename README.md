@@ -98,6 +98,11 @@ extension=mysqli
 - [CSS Grid Garden](https://cssgridgarden.com/) (Juego para aprender CSS Grid)
 - [FreeCodeCamp](https://www.freecodecamp.org/espanol/) (Aprender a programar)
 
+### Oportunidades
+
+- [Certificaciones Free 🔥](https://www.microsoft.com/es-es/cloudskillschallenge/build/registration/2022?wt.mc_id=build22_csc_webpage_esc) (Inscribirse antes del 23 de mayo 👀)
+- [Beca InfoJobs inglés AU](https://www.infojobs.net/madrid/beca-infojobs-tech-3-meses-australia-aprendiendo-ingles-con-trabajo-todos-los-gastos-pagados/of-icc8923015d4b038a82708f346b1d76?stc=aff-colaboraciones-beca23-na-afiliacion_midudev) (3 meses visa de estudiante, gastos pagos 👌)
+
 A medida que el taller avance, iremos agregando más recursos. Por ahora, estos son los más importantes.
 
 ## Assessments 📝
