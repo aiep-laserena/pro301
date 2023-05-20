@@ -74,20 +74,56 @@
 
       // Array.prototype.filter()
       // 1. Filtra la lista de inventores por los que nacieron en el 1500
+      const milQuinientos = inventores.filter(
+        (inventor) => inventor.year >= 1500 && inventor.year < 1600
+      );
+      console.table(milQuinientos);
 
       // Array.prototype.map()
       // 2. Elabora un array con los nombres y apellidos de los inventores
+      const nombreCompletos = inventores.map(
+        (inventor) => `${inventor.first} ${inventor.last}`
+      );
+      console.log(nombreCompletos);
 
       // Array.prototype.sort()
       // 3. Ordena los inventores por fecha de nacimiento, de mayor a menor.
+      const ordenados = inventores.sort(function (a, b) {
+        if (a.year > b.year) {
+          return 1;
+        } else {
+          return -1;
+        }
+      });
+
+      // Opción con operador ternario
+      const ordenados2 = inventores.sort((a, b) => (a.year > b.year ? 1 : -1));
+      console.table(ordenados2);
 
       // Array.prototype.reduce()
       // 4. ¿Cuántos años vivieron todos los inventores juntos?
+      const totalAños = inventores.reduce((total, inventor) => {
+        return total + (inventor.passed - inventor.year);
+      }, 0);
+
+      console.log(totalAños);
 
       // 5. Ordena los inventores por años vividos
+      const añosVividos = inventores.sort(function (a, b) {
+        const ultimoInventor = a.passed - a.year;
+        const siguienteInventor = b.passed - b.year;
+        return ultimoInventor > siguienteInventor ? -1 : 1;
+      });
+      console.table(añosVividos);
 
       // 6. Ejercicio de ordenamiento
       // Ordenar las personas alfabéticamente por apellido
+      const alfa = gente.sort((ultimo, siguiente) => {
+        const [aLast, aFirst] = ultimo.split(", ");
+        const [bLast, bFirst] = siguiente.split(", ");
+        return aLast > bLast ? 1 : -1;
+      });
+      console.log(alfa);
 
       // 7. Ejercicio de Reduce
       // Suma las instancias de cada uno de estos datos
@@ -107,6 +143,16 @@
         "car",
         "truck",
       ];
+
+      const transporte = data.reduce(function (obj, item) {
+        if (!obj[item]) {
+          obj[item] = 0;
+        }
+        obj[item]++;
+        return obj;
+      }, {});
+
+      console.log(transporte);
     </script>
   </body>
 </html>

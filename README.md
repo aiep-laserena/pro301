@@ -111,6 +111,7 @@ Estos son los enlaces a los entregables de **github classroom**:
 
 1. [Página de tributo](https://classroom.github.com/a/6yzVJkgn)
 2. [Ejercicios Javascript](https://classroom.github.com/a/qm6FrXHU)
+3. [Ejercicios PHP](https://classroom.github.com/a/B-HXsnHY)
 
 ## FAQ 🤔
 
